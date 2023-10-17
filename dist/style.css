@@ -923,6 +923,26 @@ body {
   background-position: 94% 101%;
 }
 
+a svg {
+  height: 2rem;
+}
+
+a svg path {
+  transition: fill 150ms ease-in-out;
+}
+
+a:hover svg path {
+  fill: hsl(12, 88%, 59%);
+}
+
+#menuIcon {
+  cursor: pointer;
+}
+
+#menuIcon svg {
+  transition: transform 0.3s;
+}
+
 @media (min-width: 1440px) {
   body {
     background: url("../images/bg-tablet-pattern.svg") no-repeat;
@@ -952,28 +972,6 @@ body {
     background-size: 75rem;
     background-position: 38% -57%;
   }
-}
-
-a svg {
-  height: 2rem;
-}
-
-a svg path {
-  transition: fill 150ms ease-in-out;
-}
-
-a:hover svg path {
-  fill: hsl(12, 88%, 59%);
-}
-
-#menuIcon {
-  cursor: pointer;
-}
-
-/* Styling for the icons */
-
-#menuIcon svg {
-  transition: transform 0.3s;
 }
 
 .hover\:bg-veryLightGray:hover {
