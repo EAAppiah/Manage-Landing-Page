@@ -600,6 +600,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -618,10 +622,6 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.ml-auto {
-  margin-left: auto;
 }
 
 .flex {
